@@ -1,0 +1,25 @@
+footer {
+  background-color: #152f4f;
+  color: #f4f4f4;
+  font-size: 15px;
+}
+footer .footer-head {
+  border-bottom: 0.5px solid #f4f4f4;
+  padding: 8px 0;
+}
+footer .copy-right {
+  max-width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+footer .copy-right p {
+  margin: 4px;
+}
+footer ul {
+  list-style: none;
+  padding: 5px;
+}
+footer ul li {
+  padding: 5px;
+}

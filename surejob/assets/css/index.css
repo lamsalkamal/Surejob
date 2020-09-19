@@ -1,0 +1,77 @@
+* {
+  font-family: 'Krub', sans-serif;
+}
+.row {
+  padding: 20px 0;
+}
+select,
+option {
+  cursor: pointer;
+}
+form:not(.search-bar) {
+  padding: 1rem 0.8rem 0.8rem 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #f4f4f4;
+}
+.error-msg,
+.success-msg {
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 0.25rem;
+}
+.error-msg {
+  background-color: #fc4e4c;
+  color: #f4f4f4;
+}
+.success-msg {
+  background-color: #71ee71;
+  color: #666262;
+}
+.fa-remove {
+  color: #fc4e4c;
+}
+.sidebar-col,
+.next-col {
+  margin-top: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.btns > :not(:last-child) {
+  margin-right: 0.25rem;
+}
+a {
+  text-decoration: none !important;
+}
+.btn:disabled {
+  cursor: no-drop;
+}
+.body-section {
+  min-height: 80vh;
+  padding-bottom: 1rem;
+}
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  background-color: rgba(21, 47, 79, 0.9);
+}
+.no-results {
+  padding: 50px 80px !important;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.fb_iframe_widget span {
+  position: sticky !important;
+  top: 90px;
+}
+.fb-page {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: auto;
+}

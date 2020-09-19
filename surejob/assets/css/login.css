@@ -1,0 +1,18 @@
+.admin-login .row {
+  justify-content: center;
+  padding: 20px 0;
+}
+.admin-login .login-form hr,
+.admin-panel .change-password-form hr {
+  margin: 0.8rem 0;
+}
+.admin-login button,
+.admin-panel button {
+  padding: 5px 15px;
+  width: 100%;
+}
+.qna-acc {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}

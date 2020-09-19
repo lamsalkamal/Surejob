@@ -1,0 +1,30 @@
+.sidebar {
+  color: #f4f4f4;
+  position: sticky;
+  top: 90px;
+}
+.sidebar ul {
+  box-sizing: content-box;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: #2d2b32;
+}
+.sidebar ul li a {
+  display: block;
+  line-height: 20px;
+  padding: 15px;
+  color: #6d6c6c;
+  text-decoration: none;
+}
+.sidebar ul li a:not(last-child) {
+  border-bottom: 0.1px solid #555;
+}
+.sidebar ul li a:hover {
+  color: #f4f4f4;
+  transition: 0.4s linear;
+}
